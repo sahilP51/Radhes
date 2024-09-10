@@ -1,0 +1,45 @@
+#opening{
+    background-color:#f6dada;
+}
+header{
+    text-align: center;
+    padding: 150px;
+    margin-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f34545;
+    font-size:x-large;
+    width: 100%;
+    
+}
+#nav-bar {
+    text-align: center;
+    padding-top: 55px;
+    
+  }
+  
+  #nav-bar li {
+    float: none;
+    display: inline-block;
+  }
+  
+  #nav-bar li a {
+    padding: 50px;
+    
+  }
+  .imageslideshow{
+    text-align: center;
+    padding:50px 0;
+  }
+  .slideshow-content{
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+.carousel-inner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  transition: all .2s ease-in-out;
+  animation: slide 10s infinite;
+}
